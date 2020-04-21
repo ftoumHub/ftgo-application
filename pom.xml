@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>net.chrisrichardson.ftgo</groupId>
+    <artifactId>ftgo-application</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <properties>
+        <java.version>1.8</java.version>
+        <springBootVersion>2.1.1.RELEASE</springBootVersion>
+        <eventuateCommonVersion>0.4.0.RELEASE</eventuateCommonVersion>
+    </properties>
+
+    <modules>
+        <module>ftgo-common</module>
+    </modules>
+</project>
