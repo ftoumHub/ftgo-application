@@ -13,7 +13,27 @@
         <eventuateCommonVersion>0.4.0.RELEASE</eventuateCommonVersion>
     </properties>
 
+    <repositories>
+        <repository>
+            <id>eventuate-release</id>
+            <url>https://dl.bintray.com/eventuateio-oss/eventuate-maven-release</url>
+        </repository>
+    </repositories>
+
     <modules>
         <module>ftgo-common</module>
     </modules>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>

@@ -9,6 +9,6 @@ public class CommonConfiguration {
     @Bean
     public CommonJsonMapperInitializer commonJsonMapperInitializer() {
         return new CommonJsonMapperInitializer();
-
     }
+
 }
